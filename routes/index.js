@@ -1,11 +1,11 @@
 // 1. IMPORTACIONES
 
 const express    = require("express");
-// const res        = require("express/lib/response");
+const res        = require("express/lib/response");
 const router     = express.Router();
 
 //2. RUTEO
-router.get("/", (req,res) =>{
+router.get("/index", (req,res) =>{
 
     res.render("index")
 } )
